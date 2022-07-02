@@ -1,0 +1,8 @@
+  <ConsultaSituacaoLoteAsync>
+         <CnpjCpf>05198313000110</CnpjCpf>
+         <Consulta>
+         <CnpjCpfPrestador>05198313000110</CnpjCpfPrestador>
+         <NumeroLote>20200619</NumeroLote>
+         <NumeroProtocolo>5455454545454554454545</NumeroProtocolo>
+         </Consulta>
+         </ConsultaSituacaoLoteAsync>

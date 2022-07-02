@@ -1,0 +1,6 @@
+<ConsultaRpsResposta>
+	<Msg>
+		<Erro>1</Erro>
+		<Status>É necessário passar um número de NFSe específico ou um intervalo de data/número de NFSe</Status>
+	</Msg>
+</ConsultaRpsResposta>

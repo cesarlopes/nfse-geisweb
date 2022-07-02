@@ -1,0 +1,6 @@
+<EnviaLoteRpsResposta>
+	<Msg>
+		<Erro>1</Erro>
+		<Status>Campo NumeroLote não pode ser vazio</Status>
+	</Msg>
+</EnviaLoteRpsResposta>

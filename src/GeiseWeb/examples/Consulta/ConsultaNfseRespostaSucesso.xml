@@ -1,0 +1,75 @@
+<ConsultaNfseResposta>
+                <Nfse>
+                <IdentificacaoNfse>
+                <NumeroRps>700</NumeroRps>
+                <NumeroNfse>1</NumeroNfse>
+                <CodigoVerificacao>MCFPBTNDOS</CodigoVerificacao>
+                </IdentificacaoNfse>
+                <DataEmissao>19/06/2020</DataEmissao>
+                <DataLancamento>19/06/2020 00:00:00</DataLancamento>
+                <Competencia>06/2020</Competencia>
+                <Servico>
+                <Valores>
+        <ValorServicos>100,00</ValorServicos>
+                <IssDevido>0,04</IssDevido>
+        <IssRetido>0,00</IssRetido>
+        <BaseCalculo>2,00</BaseCalculo>
+        <Aliquota>2,00</Aliquota>
+        </Valores>
+                <CodigoServico>101</CodigoServico>
+                <TipoLancamento>C</TipoLancamento>
+                <Discriminacao></Discriminacao>
+                <MunicipioPrestacaoServico>CAJAMAR</MunicipioPrestacaoServico>
+                </Servico>
+                <PrestadorServico>
+                <IdentificacaoPrestador>
+        <CnpjCpf>05198313000110</CnpjCpf>
+        <InscricaoMunicipal>100000</InscricaoMunicipal>
+        <Regime></Regime>
+                </IdentificacaoPrestador>
+                <RazaoSocial>VLC SOLUÇÕES EMPRESARIAIS LTDA.</RazaoSocial>
+                <Endereco>
+        <Rua>RUA ANA BALDUINO ABREU, 90</Rua>
+        <Numero>1</Numero>
+        <Bairro>JARDIM NOVA JORDANÉSIA</Bairro>
+        <Cidade>CAJAMAR</Cidade>
+        <Estado>SP</Estado>
+        <Cep>07760-000</Cep>
+        </Endereco>
+                <Contato>
+        <Telefone>(19) 3318-1014</Telefone>
+        <Email>vlc@vlcnet.com.br </Email>
+                </Contato>
+                </PrestadorServico>
+                <TomadorServico>
+        <IdentificacaoTomador>
+        <CnpjCpf>34485304841</CnpjCpf>
+        </IdentificacaoTomador>
+                <RazaoSocial>MARCIO DE OLIVEIRA JUNQUEIRA</RazaoSocial>
+                <Endereco>
+        <Rua>Rua Veneras Benzema</Rua>
+        <Numero></Numero>
+        <Bairro>RIBAS KOMEN</Bairro>
+        <Cidade>BOTUCATU</Cidade>
+        <Estado>SP</Estado>
+        <Cep></Cep>
+        </Endereco>
+        </TomadorServico>
+                <OrgaoGerador>
+        <CodigoMunicipio>123456</CodigoMunicipio>
+        <Uf>SP</Uf>
+        </OrgaoGerador>
+                <OutrosImpostos>
+        <Pis>1,00</Pis>
+        <Cofins>11,00</Cofins>
+        <Csll>111,00</Csll>
+        <Irff>1.111,00</Irff>
+        <Inss>11.111,11</Inss>
+        </OutrosImpostos>
+                <LinkConsulta>https://www.geisweb.com.br/modelo/nfse/php/nfe00101em.php?nrnfe=1&doc=05198313000110&val=MCFPBTNDOS</LinkConsulta>
+                <Signature>
+                                <DigestValue>27P4w8EtVLvjm/VsK4RMsaeTK8c=</DigestValue>
+                                <SignatureValue>HlFAZBdkHIKxkDZ7JnpcAmjKlnYL2u/peJAjS9MtEriX/mGiViG8ypHf+3GNy34i76jx8OmLAQ2ncUDe1bc+DIUPAK2c2Q6/96ThORwU+Q0xp83WF7VukOXu4Kt+JrjiX6bqjM2Kw7DS6xOJ+FVqOZk29LVu90g+FmPqw1p8uCJFRcA5scBr/9GqbsxiPlQXDdz4dKI3YgTKYWCA9MGEZIGqzSCCWfwJiSlbSmQ6Z0iHY2lrB7Z/Km0+BMdWOywiXXfoJNRwW9Oe4uLwlmt4RE5MHftNpawDObksXE8r7kPzfly1d396nn6TfQFvv91O19cr2a8/AYg9s85P1NA5Zg==</SignatureValue>
+                                </Signature>
+                </Nfse>
+                </ConsultaNfseResposta>

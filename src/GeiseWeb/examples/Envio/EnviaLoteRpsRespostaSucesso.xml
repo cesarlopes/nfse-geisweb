@@ -1,0 +1,75 @@
+<EnviaLoteRPSResposta>
+	<NumeroLote>1A1A1B</NumeroLote>
+<Nfse>
+				<IdentificacaoNfse>
+				<NumeroRps>11</NumeroRps>
+				<NumeroNfse>112</NumeroNfse>
+				<CodigoVerificacao>MCKRALNDBT</CodigoVerificacao>
+				</IdentificacaoNfse>
+				<DataEmissao>10/02/2020</DataEmissao>
+				<DataLancamento>30/06/2020 16:07:15</DataLancamento>
+				<Competencia>06/2020</Competencia>
+				<Servico>
+				<Valores>
+				<ValorServicos>10.000,00</ValorServicos>
+				<IssDevido>0,05</IssDevido>
+				<IssRetido>0,00</IssRetido>
+				<BaseCalculo>2,00</BaseCalculo>
+				<Aliquota>2,46</Aliquota>
+				</Valores>
+				<CodigoServico>101</CodigoServico>
+				<TipoLancamento>P</TipoLancamento>
+				<Discriminacao></Discriminacao>
+				<MunicipioPrestacaoServico>BOTUCATU</MunicipioPrestacaoServico>
+				</Servico>
+				<PrestadorServico>
+				<IdentificacaoPrestador>
+				<CnpjCpf>05198313000110</CnpjCpf>
+				<InscricaoMunicipal>A</InscricaoMunicipal>
+				<Regime>1</Regime>
+				</IdentificacaoPrestador>
+				<RazaoSocial>VLC SOLUÇÕES EMPRESARIAIS LTDA.</RazaoSocial>
+				<Endereco>
+				<Rua>RUA ANA BALDUINO ABREU</Rua>
+				<Numero>90</Numero>
+				<Bairro>JARDIM NOVA JORDANÉSIA</Bairro>
+				<Cidade>CAJAMAR</Cidade>
+				<Estado>SP</Estado>
+				<Cep>07760-000</Cep>
+				</Endereco>
+				<Contato>
+				<Telefone>(19) 3318-1014</Telefone>
+				<Email>vlc@vlcnet.com.br </Email>
+				</Contato>
+				</PrestadorServico>
+				<TomadorServico>
+				<IdentificacaoTomador>
+				<CnpjCpf>34485304841</CnpjCpf>
+				</IdentificacaoTomador>
+				<RazaoSocial>MARCIO DE OLIVEIRA JUNQUEIRA</RazaoSocial>
+				<Endereco>
+				<Rua>Rua Veneras Benzema</Rua>
+				<Numero>888</Numero>
+				<Bairro>RIBAS KOMEN</Bairro>
+				<Cidade>BOTUCATU</Cidade>
+				<Estado>SP</Estado>
+				<Cep></Cep>
+				</Endereco>
+				</TomadorServico>
+				<OrgaoGerador>
+				<CodigoMunicipio></CodigoMunicipio>
+				<Uf></Uf>
+				</OrgaoGerador>
+				<OutrosImpostos>
+				<Pis>1,00</Pis>
+				<Cofins>11,00</Cofins>
+				<Csll>111,00</Csll>
+				<Irff></Irff>
+				<Inss>11.111,11</Inss>
+				</OutrosImpostos>
+				<LinkConsulta>https://www.geisweb.com.br/modelo/nfse/php/nfe00101em.php?nrnfe=&doc=05198313000110&val=MCKRALNDBT</LinkConsulta>
+				<Signature>
+				<DigestValue>27P4w8EtVLvjm/VsK4RMsaeTK8c=</DigestValue>
+				<SignatureValue>HlFAZBdkHIKxkDZ7JnpcAmjKlnYL2u/peJAjS9MtEriX/mGiViG8ypHf+3GNy34i76jx8OmLAQ2ncUDe1bc+DIUPAK2c2Q6/96ThORwU+Q0xp83WF7VukOXu4Kt+JrjiX6bqjM2Kw7DS6xOJ+FVqOZk29LVu90g+FmPqw1p8uCJFRcA5scBr/9GqbsxiPlQXDdz4dKI3YgTKYWCA9MGEZIGqzSCCWfwJiSlbSmQ6Z0iHY2lrB7Z/Km0+BMdWOywiXXfoJNRwW9Oe4uLwlmt4RE5MHftNpawDObksXE8r7kPzfly1d396nn6TfQFvv91O19cr2a8/AYg9s85P1NA5Zg==</SignatureValue>
+				</Signature>
+				</Nfse></EnviaLoteRPSResposta>

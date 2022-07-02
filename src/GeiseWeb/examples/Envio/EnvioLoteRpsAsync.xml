@@ -1,0 +1,54 @@
+<EnviaLoteRpsAsync  xmlns="http://www.geisweb.com.br/xsd/envio_lote_rps_async.xsd">
+<CnpjCpf>05198313000110</CnpjCpf>
+<NumeroLote>1A1A</NumeroLote>
+                <Rps xmlns="http://www.geisweb.com.br/xsd/envio_lote_rps_async.xsd">
+                <IdentificacaoRps>
+                <NumeroRps>1</NumeroRps> 
+                </IdentificacaoRps>
+                <DataEmissao>10/02/2020</DataEmissao>  
+                <Servico>
+                <Valores>
+        <ValorServicos>10000.00</ValorServicos> 
+        <BaseCalculo>2.00</BaseCalculo> 
+        <Aliquota>2.45678</Aliquota> 
+        </Valores>
+                <CodigoServico>101</CodigoServico> 
+                <TipoLancamento>P</TipoLancamento> 
+                <Discriminacao></Discriminacao> 
+                <MunicipioPrestacaoServico>BOTUCATU</MunicipioPrestacaoServico>
+                </Servico>
+                <PrestadorServico>
+                <IdentificacaoPrestador>
+        <CnpjCpf>05198313000110</CnpjCpf>
+        <InscricaoMunicipal>A</InscricaoMunicipal> 
+        <Regime>1</Regime>
+                </IdentificacaoPrestador>
+                </PrestadorServico>
+                <TomadorServico>
+        <IdentificacaoTomador>
+        <CnpjCpf>34485304841</CnpjCpf> 
+        </IdentificacaoTomador>
+                <RazaoSocial>MARCIO DE OLIVEIRA JUNQUEIRA</RazaoSocial>
+                <Endereco>
+        <Rua>Rua Veneras Benzema</Rua>
+        <Numero>888</Numero>
+        <Bairro>RIBAS KOMEN</Bairro>
+        <Cidade>BOTUCATU</Cidade>
+        <Estado>SP</Estado> 
+        <Cep></Cep> 
+        </Endereco>
+        </TomadorServico>
+                <OrgaoGerador>
+        <CodigoMunicipio></CodigoMunicipio>
+        <Uf></Uf>
+        </OrgaoGerador>
+                <OutrosImpostos>
+        <Pis>1.00</Pis>
+        <Cofins>11.00</Cofins>
+        <Csll>111.00</Csll>
+        <Irrf>1111.00</Irrf>
+        <Inss>11111.11</Inss>
+        </OutrosImpostos>
+        <Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>27P4w8EtVLvjm/VsK4RMsaeTK8c=</DigestValue></Reference></SignedInfo><SignatureValue>HlFAZBdkHIKxkDZ7JnpcAmjKlnYL2u/peJAjS9MtEriX/mGiViG8ypHf+3GNy34i76jx8OmLAQ2ncUDe1bc+DIUPAK2c2Q6/96ThORwU+Q0xp83WF7VukOXu4Kt+JrjiX6bqjM2Kw7DS6xOJ+FVqOZk29LVu90g+FmPqw1p8uCJFRcA5scBr/9GqbsxiPlQXDdz4dKI3YgTKYWCA9MGEZIGqzSCCWfwJiSlbSmQ6Z0iHY2lrB7Z/Km0+BMdWOywiXXfoJNRwW9Oe4uLwlmt4RE5MHftNpawDObksXE8r7kPzfly1d396nn6TfQFvv91O19cr2a8/AYg9s85P1NA5Zg==</SignatureValue><KeyInfo><X509Data><X509Certificate>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</X509Certificate></X509Data></KeyInfo></Signature>
+                </Rps>
+                </EnviaLoteRpsAsync>

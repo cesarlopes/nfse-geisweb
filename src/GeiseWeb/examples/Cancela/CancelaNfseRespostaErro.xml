@@ -1,0 +1,6 @@
+<CancelaNfseResposta>
+	<Msg>
+		<Erro>1</Erro>
+		<Status>NFSe já encontra-se cancelada</Status>
+	</Msg>
+</CancelaNfseResposta>

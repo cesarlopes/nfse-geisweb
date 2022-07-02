@@ -1,0 +1,13 @@
+ <ConsultaNfse>
+         <CnpjCpf>05198313000110</CnpjCpf>
+         <Consulta>
+         <CnpjCpfPrestador>05198313000110</CnpjCpfPrestador>
+         <NumeroNfse></NumeroNfse>
+         <MultiplasNfse></MultiplasNfse>
+         <DtInicial>30/06/2020</DtInicial>
+         <DtFinal>30/06/2020</DtFinal>
+         <NumeroInicial></NumeroInicial>
+         <NumeroFinal></NumeroFinal>
+         <Pagina>1</Pagina>
+         </Consulta>
+         </ConsultaNfse>

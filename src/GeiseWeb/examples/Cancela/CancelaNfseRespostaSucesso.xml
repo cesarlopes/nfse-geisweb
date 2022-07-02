@@ -1,0 +1,71 @@
+<CancelaNfseResposta>
+                <Nfse>
+                <IdentificacaoNfse>
+                <NumeroRps>12558</NumeroRps>
+                <NumeroNfse>78</NumeroNfse>
+                <CodigoVerificacao>VJNDALBTFP</CodigoVerificacao>
+                </IdentificacaoNfse>
+                <DataEmissao>22/06/2020</DataEmissao>
+                <DataLancamento>22/06/2020 13:10:00</DataLancamento>
+                <Competencia>06/2020</Competencia>
+                <Servico>
+                <Valores>
+        <ValorServicos>200,00</ValorServicos>
+        <BaseCalculo>3,00</BaseCalculo>
+        <Aliquota>3,00</Aliquota>
+        <IssDevido>0,09</IssDevido>
+        <IssRetido>0,00</IssRetido>
+        </Valores>
+                <CodigoServico>101</CodigoServico>
+                <TipoLancamento>C</TipoLancamento>
+                <Discriminacao></Discriminacao>
+                <MunicipioPrestacaoServico>CAJAMAR</MunicipioPrestacaoServico>
+                </Servico>
+                <PrestadorServico>
+                <IdentificacaoPrestador>
+        <CnpjCpf>05198313000110</CnpjCpf>
+        <InscricaoMunicipal>100000</InscricaoMunicipal>
+        <Regime>1</Regime>
+                </IdentificacaoPrestador>
+                <RazaoSocial>VLC SOLUÇÕES EMPRESARIAIS LTDA.</RazaoSocial>
+                <Endereco>
+        <Rua>RUA ANA BALDUINO ABREU, 90</Rua>
+        <Numero>1</Numero>
+        <Bairro>JARDIM NOVA JORDANÉSIA</Bairro>
+        <Cidade>CAJAMAR</Cidade>
+        <Estado>SP</Estado>
+        <Cep>07760-000</Cep>
+        </Endereco>
+                <Contato>
+        <Telefone>(19) 3318-1014</Telefone>
+        <Email>vlc@vlcnet.com.br </Email>
+                </Contato>
+                </PrestadorServico>
+                <TomadorServico>
+        <IdentificacaoTomador>
+        <CnpjCpf>34485304841</CnpjCpf>
+        </IdentificacaoTomador>
+                <RazaoSocial>MARCIO DE OLIVEIRA JUNQUEIRA</RazaoSocial>
+                <Endereco>
+        <Rua>Rua Veneras Benzema</Rua>
+        <Numero></Numero>
+        <Bairro>RIBAS KOMEN</Bairro>
+        <Cidade>BOTUCATU</Cidade>
+        <Estado>SP</Estado>
+        <Cep></Cep>
+        </Endereco>
+        </TomadorServico>
+                <OrgaoGerador>
+        <CodigoMunicipio></CodigoMunicipio>
+        <Uf>SP</Uf>
+        </OrgaoGerador>
+                <OutrosImpostos>
+        <Pis></Pis>
+        <Cofins></Cofins>
+        <Csll></Csll>
+        <Irrf></Irrf>
+        <Inss></Inss>
+        </OutrosImpostos>
+                <LinkConsulta>https://www.geisweb.com.br/modelo/nfse/php/nfe00101em.php?nrnfe=78&doc=05198313000110&val=VJNDALBTFP</LinkConsulta>
+                </Nfse>
+                </CancelaNfseResposta>
