@@ -1,0 +1,33 @@
+{
+    "name": "cesarlopes/nfse-geisweb",
+    "type": "library",
+    "description": "Biblioteca para gerar NFS-e com Prefeituras que utilizam GeisWeb",
+    "keywords": [
+        "nfse",
+        "geisweb"
+    ],
+    "homepage": "https://github.com/cesarlopes/nfse-geisweb",
+    "license": [
+        "LGPL-3.0-or-later",
+        "GPL-3.0-or-later",
+        "MIT"
+    ],
+    "authors": [
+        {
+            "name": "Cesar Lopes",
+            "email": "contato@cesarlopes.com",
+            "homepage": "https://www.cesarlopes.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">= 7.4",
+        "nfephp-org/sped-common": "^5.1.0",
+        "dompdf/dompdf": "^1.2"        
+    },
+    "autoload": {
+        "psr-4": {
+            "NFSe\\GeisWeb\\":"src/"
+        }
+    }
+}
