@@ -6,9 +6,7 @@ use NFSe\GeisWeb\RPS;
 use NFePHP\Common\Certificate;
 
 class EnviaLoteRps extends Operations
-{
-    
-    protected $response;
+{    
     
     /**
      * @param object $certificate
@@ -21,37 +19,7 @@ class EnviaLoteRps extends Operations
         $this->operation = 'EnviaLoteRps';
 
         $this->xml  = $rps->getXMLSigned($certificate);
-    }
-
-    /**
-     * @return boolean
-     */
-    public function send()
-    {
-        try {
-
-            $responseXML = $this->soap->send($this->operation, $this->xml);
-
-            $responseXML = $this->addCDATA($responseXML);
-
-            $object = simplexml_load_string($responseXML, 'SimpleXMLElement', LIBXML_NOCDATA);
-
-            if ($object !== false) {
-
-                $this->response = $object;
-
-                if (isset($object->Msg->Erro)) {
-                    return false;
-                }               
-
-                return true;
-            }
-
-            return false;
-        } catch (\Exception $e) {
-            return false;
-        }
-    }
+    }    
     
     public function getNumeroNFSe(){
         return $this->response->Nfse->IdentificacaoNfse->NumeroNfse;

@@ -2,15 +2,21 @@
 
 namespace NFSe\GeisWeb\Operations;
 
+use NFePHP\Common\Certificate;
+
 class ConsultaNfse extends Operations
 {
+
     /**
+     * @param object $certificate
      * @param string $numero
      * @param string $cnpj
      * @return string|null
      */
-    public function __construct($numero, $cnpj)
+    public function __construct(Certificate $certificate, $numero, $cnpj)
     {
+        parent::__construct($certificate);
+        
         $this->operation = 'ConsultaNfse';
 
         $this->xml  = ' <ConsultaNfse>
@@ -27,4 +33,6 @@ class ConsultaNfse extends Operations
                         </Consulta>
                     </ConsultaNfse>';
     }
+    
+    
 }

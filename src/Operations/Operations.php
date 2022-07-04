@@ -19,6 +19,9 @@ class Operations
     /** @var object */
     protected $certificate;
 
+    /** @var object */
+    protected $response;
+
     /**
      * Operations constructor.
      * @param object $certificate
@@ -38,24 +41,39 @@ class Operations
         $xml = str_replace('<LinkConsulta>', '<LinkConsulta><![CDATA[', $xml);
         $xml = str_replace('</LinkConsulta>', ']]></LinkConsulta>', $xml);
         return $xml;
-    }
-    
+    }    
 
-    public function get()
+    /**
+     * @return boolean
+     */
+    public function send()
     {
         try {
-            $soap = new SoapNative($this->certificate);
-            $this->response = $soap->send(
-                $this->url,
-                $this->function,
-                '',
-                '',
-                $this->xml
-            );
-            return $this;
+
+            $responseXML = $this->soap->send($this->operation, $this->xml);
+
+            $responseXML = $this->addCDATA($responseXML);
+
+            $object = simplexml_load_string($responseXML, 'SimpleXMLElement', LIBXML_NOCDATA);
+
+            if ($object !== false) {
+
+                $this->response = $object;
+
+                if (isset($object->Msg->Erro)) {
+                    return false;
+                }               
+
+                return true;
+            }
+
+            return false;
         } catch (\Exception $e) {
-            echo $e->getMessage();
             return false;
         }
+    }
+
+    public function getResponse(){
+        return $this->response;
     }
 }
