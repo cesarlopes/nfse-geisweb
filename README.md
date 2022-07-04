@@ -18,5 +18,5 @@ composer require cesarlopes/nfse-geisweb
 *Biblioteca em desenvolvimento*
 
 ```php
-require __DIR__.'/vender/autoload.php';
+require __DIR__.'/vendor/autoload.php';
 ```
